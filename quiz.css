@@ -1,0 +1,81 @@
+ html{  
+    /* display block and margin auto will put your box at center */ 
+    font-size: 62.5%;
+}
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: rgb(222, 246, 252);
+}
+
+.innercontainer{
+    width: 40vw;
+    background-color:white;
+    padding: 3rem 8rem;   /*3 for up and down 8 for left and right  */
+    /* font-size: 15px; */
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem  -0.7rem rgba(0, 0, 0, 0.4);
+}
+.innercontainer h2{
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin: 1rem 0 4rem 0;   /*top,right,bottom,left(TRBL) */
+}
+
+.innercontainer li{
+     font-size: 2rem;
+     margin-top: 1.5rem;
+     list-style: none;
+     cursor: pointer;
+}
+button#button{
+    padding: 1rem 3rem;  /*10px from top and bottom and 30px from right and left  */
+    outline: none;
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;  /*display block and margin auto will fix it at center */
+    margin: auto;
+    border: none;  /*it will remove bydefault border color  */
+    text-transform: uppercase;  /* it will convert all digits into uppercase */
+    color: white;
+    background-color: #74b9ff;
+    margin-top: 4rem;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button#button:hover{
+    background-color: #0984e3;
+}
+#showScore{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    /* padding: 3rem 4rem; */
+    /* padding: 0 1rem; */
+    box-shadow: 0 1rem 1rem  -0.7rem rgba(0, 0, 0, 0.4);
+}
+#showScore h3{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+#showScore button{
+    margin-top: 2rem;
+    background-color: #74b9ff;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: none;
+    font-size: 18px;
+    padding: 1rem 1rem;
+    border-radius: 6px;
+}
+#showScore button:hover{
+    background-color: cornflowerblue;
+}
+.scoreArea{
+    display: none;
+}

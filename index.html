@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="innercontainer">
+            <!-- questions -->
+            <h1 class="question">Question</h1>
+            <ul>
+                <!-- First answer -->
+                <li>
+                    <input type="radio" name="answer" id="ans1" class="answer"> 
+                    <!-- name must be same in order to select any one out of 4 -->
+                    <label for="ans1" id="option1">Answer</label>
+                </li>
+
+                <!-- Second answer -->
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <label for="ans2" id="option2">Answer</label>
+                </li>
+
+                <!-- Third answer  -->
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label for="ans3" id="option3">Answer</label>
+                </li>
+
+                <!-- Fourth answer  -->
+                <li>
+                    <input type="radio" name="answer" id="ans4" class="answer">
+                    <label for="ans4" id="option4">Answer</label>
+                </li>
+            </ul>
+            <!-- submit button  -->
+            <button id=button>Submit</button>
+            <div id="showScore" class="scoreArea">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="script.js"></script>
+
